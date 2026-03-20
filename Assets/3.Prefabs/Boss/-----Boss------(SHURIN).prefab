@@ -1,0 +1,1779 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6422194911852439763
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3832805606504242639}
+  - component: {fileID: 321655120319152205}
+  - component: {fileID: 121378988985613715}
+  - component: {fileID: 1194805997132282510}
+  - component: {fileID: 2488321298105395374}
+  - component: {fileID: 4779333510623518543}
+  - component: {fileID: 8430200544206869161}
+  - component: {fileID: 9058703161435279495}
+  - component: {fileID: 4269775398994777025}
+  - component: {fileID: 3306134148894349486}
+  - component: {fileID: 6125546105514625472}
+  - component: {fileID: 6503281036797251563}
+  - component: {fileID: 8065237559807269600}
+  - component: {fileID: 8841597155752930510}
+  - component: {fileID: 4517641941986086640}
+  - component: {fileID: 6972368154083397522}
+  m_Layer: 0
+  m_Name: -----Boss------(SHURIN)
+  m_TagString: Enemy
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3832805606504242639
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6422194911852439763}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.64, y: 2.79, z: 0}
+  m_LocalScale: {x: 0.8, y: 0.8, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &321655120319152205
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6422194911852439763}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 1721770421
+  m_SortingLayer: 4
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 99b1d72d967a6554ea9b16d203998f9c, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1.28, y: 1.28}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!95 &121378988985613715
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6422194911852439763}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 25da6e6d2f6c3ac49997aa96d6f6dcfe, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!61 &1194805997132282510
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6422194911852439763}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.28, y: 1.28}
+    newSize: {x: 1.28, y: 1.28}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.28, y: 1.28}
+  m_EdgeRadius: 0
+--- !u!50 &2488321298105395374
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6422194911852439763}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!114 &4779333510623518543
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6422194911852439763}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c915bfe1f36829b4e84b3caec9d906d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  patternOrder:
+  - template:
+      fireSound: {fileID: 8300000, guid: 55c7a9fff573a9c41bd7b1f78e42dee3, type: 3}
+      patternName: "6\uC790\uD328\uD134"
+      bulletPrefab: {fileID: 8522127081971420636, guid: 8858249de61d78641abdaedbc3d3c082, type: 3}
+      setsToShoot: 14
+      bulletsPerSet: 6
+      rotationStep: -7
+      spawnOffset: 0.2
+      shootInterval: 0.05
+      freezeTime: 0
+      initialSpeed: 0
+      burstSpeed: 6
+      finalSpeed: 1.25
+      speedIncreasePerSet: 0.2
+      accelerationTime: 0.05
+      burstDuration: 0.05
+      decelerationTime: 0.1
+      delayAfterPattern: 0
+  - template:
+      fireSound: {fileID: 8300000, guid: 55c7a9fff573a9c41bd7b1f78e42dee3, type: 3}
+      patternName: "4\uC790\uD328\uD134"
+      bulletPrefab: {fileID: 3726494056521552279, guid: db821c05a2fbb474f8d3e883f8c0d724, type: 3}
+      setsToShoot: 8
+      bulletsPerSet: 4
+      rotationStep: 3
+      spawnOffset: 0.2
+      shootInterval: 0.05
+      freezeTime: 0
+      initialSpeed: 0.5
+      burstSpeed: 5
+      finalSpeed: 3
+      speedIncreasePerSet: 0.05
+      accelerationTime: 0.1
+      burstDuration: 0.1
+      decelerationTime: 0.1
+      delayAfterPattern: 0
+  - template:
+      fireSound: {fileID: 8300000, guid: 55c7a9fff573a9c41bd7b1f78e42dee3, type: 3}
+      patternName: "6\uC790\uD328\uD134"
+      bulletPrefab: {fileID: 8522127081971420636, guid: 8858249de61d78641abdaedbc3d3c082, type: 3}
+      setsToShoot: 14
+      bulletsPerSet: 8
+      rotationStep: -7
+      spawnOffset: 0.2
+      shootInterval: 0.05
+      freezeTime: 0
+      initialSpeed: 0
+      burstSpeed: 6
+      finalSpeed: 1.25
+      speedIncreasePerSet: 0.2
+      accelerationTime: 0.05
+      burstDuration: 0.05
+      decelerationTime: 0.1
+      delayAfterPattern: 0
+  - template:
+      fireSound: {fileID: 8300000, guid: 55c7a9fff573a9c41bd7b1f78e42dee3, type: 3}
+      patternName: "4\uC790\uD328\uD134"
+      bulletPrefab: {fileID: 3726494056521552279, guid: db821c05a2fbb474f8d3e883f8c0d724, type: 3}
+      setsToShoot: 8
+      bulletsPerSet: 6
+      rotationStep: 3
+      spawnOffset: 0.2
+      shootInterval: 0.05
+      freezeTime: 0
+      initialSpeed: 0.5
+      burstSpeed: 5
+      finalSpeed: 3
+      speedIncreasePerSet: 0.05
+      accelerationTime: 0.1
+      burstDuration: 0.1
+      decelerationTime: 0.1
+      delayAfterPattern: 0
+  - template:
+      fireSound: {fileID: 8300000, guid: 55c7a9fff573a9c41bd7b1f78e42dee3, type: 3}
+      patternName: "6\uC790\uD328\uD134"
+      bulletPrefab: {fileID: 8522127081971420636, guid: 8858249de61d78641abdaedbc3d3c082, type: 3}
+      setsToShoot: 14
+      bulletsPerSet: 12
+      rotationStep: -7
+      spawnOffset: 0.2
+      shootInterval: 0.05
+      freezeTime: 0
+      initialSpeed: 0
+      burstSpeed: 6
+      finalSpeed: 1.25
+      speedIncreasePerSet: 0.2
+      accelerationTime: 0.05
+      burstDuration: 0.05
+      decelerationTime: 0.1
+      delayAfterPattern: 0
+  - template:
+      fireSound: {fileID: 8300000, guid: 55c7a9fff573a9c41bd7b1f78e42dee3, type: 3}
+      patternName: "4\uC790\uD328\uD134"
+      bulletPrefab: {fileID: 3726494056521552279, guid: db821c05a2fbb474f8d3e883f8c0d724, type: 3}
+      setsToShoot: 8
+      bulletsPerSet: 10
+      rotationStep: 3
+      spawnOffset: 0.2
+      shootInterval: 0.05
+      freezeTime: 0
+      initialSpeed: 0.5
+      burstSpeed: 5
+      finalSpeed: 3
+      speedIncreasePerSet: 0.05
+      accelerationTime: 0.1
+      burstDuration: 0.1
+      decelerationTime: 0.1
+      delayAfterPattern: 0
+  - template:
+      fireSound: {fileID: 8300000, guid: 55c7a9fff573a9c41bd7b1f78e42dee3, type: 3}
+      patternName: "6\uC790\uD328\uD134"
+      bulletPrefab: {fileID: 8522127081971420636, guid: 8858249de61d78641abdaedbc3d3c082, type: 3}
+      setsToShoot: 14
+      bulletsPerSet: 14
+      rotationStep: -7
+      spawnOffset: 0.2
+      shootInterval: 0.05
+      freezeTime: 0
+      initialSpeed: 0
+      burstSpeed: 6
+      finalSpeed: 1.25
+      speedIncreasePerSet: 0.2
+      accelerationTime: 0.05
+      burstDuration: 0.05
+      decelerationTime: 0.1
+      delayAfterPattern: 0
+  - template:
+      fireSound: {fileID: 8300000, guid: 55c7a9fff573a9c41bd7b1f78e42dee3, type: 3}
+      patternName: "4\uC790\uD328\uD134"
+      bulletPrefab: {fileID: 3726494056521552279, guid: db821c05a2fbb474f8d3e883f8c0d724, type: 3}
+      setsToShoot: 8
+      bulletsPerSet: 12
+      rotationStep: 3
+      spawnOffset: 0.2
+      shootInterval: 0.05
+      freezeTime: 0
+      initialSpeed: 0.5
+      burstSpeed: 5
+      finalSpeed: 3
+      speedIncreasePerSet: 0.05
+      accelerationTime: 0.1
+      burstDuration: 0.1
+      decelerationTime: 0.1
+      delayAfterPattern: 0
+  - template:
+      fireSound: {fileID: 8300000, guid: 55c7a9fff573a9c41bd7b1f78e42dee3, type: 3}
+      patternName: "6\uC790\uD328\uD134"
+      bulletPrefab: {fileID: 8522127081971420636, guid: 8858249de61d78641abdaedbc3d3c082, type: 3}
+      setsToShoot: 14
+      bulletsPerSet: 16
+      rotationStep: -7
+      spawnOffset: 0.2
+      shootInterval: 0.05
+      freezeTime: 0
+      initialSpeed: 0
+      burstSpeed: 6
+      finalSpeed: 1.25
+      speedIncreasePerSet: 0.2
+      accelerationTime: 0.05
+      burstDuration: 0.05
+      decelerationTime: 0.1
+      delayAfterPattern: 0
+  - template:
+      fireSound: {fileID: 8300000, guid: 55c7a9fff573a9c41bd7b1f78e42dee3, type: 3}
+      patternName: "4\uC790\uD328\uD134"
+      bulletPrefab: {fileID: 3726494056521552279, guid: db821c05a2fbb474f8d3e883f8c0d724, type: 3}
+      setsToShoot: 8
+      bulletsPerSet: 14
+      rotationStep: 3
+      spawnOffset: 0.2
+      shootInterval: 0.05
+      freezeTime: 0
+      initialSpeed: 0.5
+      burstSpeed: 5
+      finalSpeed: 3
+      speedIncreasePerSet: 0.05
+      accelerationTime: 0.1
+      burstDuration: 0.1
+      decelerationTime: 0.1
+      delayAfterPattern: 0
+  - template:
+      fireSound: {fileID: 8300000, guid: 55c7a9fff573a9c41bd7b1f78e42dee3, type: 3}
+      patternName: "6\uC790\uD328\uD134"
+      bulletPrefab: {fileID: 8522127081971420636, guid: 8858249de61d78641abdaedbc3d3c082, type: 3}
+      setsToShoot: 14
+      bulletsPerSet: 18
+      rotationStep: -7
+      spawnOffset: 0.2
+      shootInterval: 0.05
+      freezeTime: 0
+      initialSpeed: 0
+      burstSpeed: 6
+      finalSpeed: 1.25
+      speedIncreasePerSet: 0.2
+      accelerationTime: 0.05
+      burstDuration: 0.05
+      decelerationTime: 0.1
+      delayAfterPattern: 0
+  - template:
+      fireSound: {fileID: 8300000, guid: 55c7a9fff573a9c41bd7b1f78e42dee3, type: 3}
+      patternName: "4\uC790\uD328\uD134"
+      bulletPrefab: {fileID: 3726494056521552279, guid: db821c05a2fbb474f8d3e883f8c0d724, type: 3}
+      setsToShoot: 8
+      bulletsPerSet: 16
+      rotationStep: 3
+      spawnOffset: 0.2
+      shootInterval: 0.05
+      freezeTime: 0
+      initialSpeed: 0.5
+      burstSpeed: 5
+      finalSpeed: 3
+      speedIncreasePerSet: 0.05
+      accelerationTime: 0.1
+      burstDuration: 0.1
+      decelerationTime: 0.1
+      delayAfterPattern: 0
+  - template:
+      fireSound: {fileID: 0}
+      patternName: "\uBE54\uD328\uD134"
+      bulletPrefab: {fileID: 3726494056521552279, guid: db821c05a2fbb474f8d3e883f8c0d724, type: 3}
+      setsToShoot: 12
+      bulletsPerSet: 16
+      rotationStep: 6
+      spawnOffset: 0.2
+      shootInterval: 0.05
+      freezeTime: 0
+      initialSpeed: 0.5
+      burstSpeed: 5
+      finalSpeed: 1.5
+      speedIncreasePerSet: 0.05
+      accelerationTime: 0.1
+      burstDuration: 0.1
+      decelerationTime: 0.1
+      delayAfterPattern: 0
+  loopPatterns: 0
+  patternTemplates:
+  - fireSound: {fileID: 0}
+    patternName: "8\uC790\uD328\uD134"
+    bulletPrefab: {fileID: 8522127081971420636, guid: 8858249de61d78641abdaedbc3d3c082, type: 3}
+    setsToShoot: 12
+    bulletsPerSet: 7
+    rotationStep: 6
+    spawnOffset: 0.2
+    shootInterval: 0.05
+    freezeTime: 0
+    initialSpeed: 0.5
+    burstSpeed: 5
+    finalSpeed: 1.5
+    speedIncreasePerSet: 0.05
+    accelerationTime: 0.1
+    burstDuration: 0.1
+    decelerationTime: 0.1
+    delayAfterPattern: 0
+  - fireSound: {fileID: 0}
+    patternName: "16\uC790\uD328\uD134"
+    bulletPrefab: {fileID: 8522127081971420636, guid: 8858249de61d78641abdaedbc3d3c082, type: 3}
+    setsToShoot: 12
+    bulletsPerSet: 16
+    rotationStep: 6
+    spawnOffset: 0.2
+    shootInterval: 0.05
+    freezeTime: 0
+    initialSpeed: 0.5
+    burstSpeed: 5
+    finalSpeed: 1.5
+    speedIncreasePerSet: 0.05
+    accelerationTime: 0.1
+    burstDuration: 0.1
+    decelerationTime: 0.1
+    delayAfterPattern: 0
+  - fireSound: {fileID: 0}
+    patternName: "12\uC790 \uD478\uB978\uD328\uD134"
+    bulletPrefab: {fileID: 3726494056521552279, guid: db821c05a2fbb474f8d3e883f8c0d724, type: 3}
+    setsToShoot: 12
+    bulletsPerSet: 16
+    rotationStep: 6
+    spawnOffset: 0.2
+    shootInterval: 0.05
+    freezeTime: 0
+    initialSpeed: 0.5
+    burstSpeed: 5
+    finalSpeed: 1.5
+    speedIncreasePerSet: 0.05
+    accelerationTime: 0.1
+    burstDuration: 0.1
+    decelerationTime: 0.1
+    delayAfterPattern: 0
+  - fireSound: {fileID: 0}
+    patternName: "\uBE54\uD328\uD134"
+    bulletPrefab: {fileID: 3726494056521552279, guid: db821c05a2fbb474f8d3e883f8c0d724, type: 3}
+    setsToShoot: 12
+    bulletsPerSet: 16
+    rotationStep: 6
+    spawnOffset: 0.2
+    shootInterval: 0.05
+    freezeTime: 0
+    initialSpeed: 0.5
+    burstSpeed: 5
+    finalSpeed: 1.5
+    speedIncreasePerSet: 0.05
+    accelerationTime: 0.1
+    burstDuration: 0.1
+    decelerationTime: 0.1
+    delayAfterPattern: 0
+  repeatCount: 12
+  movePosition: {x: -2.5, y: 2}
+  moveSpeed: 5
+  delayBeforePattern: 1.5
+  animator: {fileID: 0}
+--- !u!114 &8430200544206869161
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6422194911852439763}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9767769c12964944e95c0714aabd2cfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetPosition: {x: -1.5, y: 1.8}
+  moveSpeed: 3
+  arrivalThreshold: 0.1
+  animator: {fileID: 0}
+  beamPatterns:
+  - startDelay: 0
+    patternType: 2
+    patternData:
+      patternName: 
+      beamPrefab: {fileID: 8159057479190825835, guid: df795ef7e984ce94b9a701dee0aa393e, type: 3}
+      beamLength: 1
+      spawnOffset: 6.5
+      beamLifetime: 0.2
+      disableAnimationDuringRotation: 1
+      currentBeamList: []
+      beamBulletPrefab: {fileID: 0}
+      beamBulletCount: 0
+      beamBulletSpeed: 0
+      bulletSpawnDelay: 0
+      bulletOffsets: []
+      bulletSpacing: 0
+      clockwise: 1
+      rotationSpeed: 150
+      syncWithRotationSpeed: 0
+      beamCount: 1
+      startAngle: 170
+      endAngle: -100
+      useLaserAngleStep: 0
+      laserBeamCount: 25
+      laserAngleStep: 5
+      moveStartX: 0
+      moveEndX: 0
+      shootInterval: 0.05
+      delayAfterPattern: 0
+      beamFireSound: {fileID: 0}
+    repeatCount: 1
+  - startDelay: 0.03
+    patternType: 2
+    patternData:
+      patternName: 
+      beamPrefab: {fileID: 8159057479190825835, guid: df795ef7e984ce94b9a701dee0aa393e, type: 3}
+      beamLength: 1
+      spawnOffset: 6.5
+      beamLifetime: 0.2
+      disableAnimationDuringRotation: 1
+      currentBeamList: []
+      beamBulletPrefab: {fileID: 0}
+      beamBulletCount: 0
+      beamBulletSpeed: 0
+      bulletSpawnDelay: 0
+      bulletOffsets: []
+      bulletSpacing: 0
+      clockwise: 1
+      rotationSpeed: 150
+      syncWithRotationSpeed: 0
+      beamCount: 1
+      startAngle: 170
+      endAngle: -100
+      useLaserAngleStep: 0
+      laserBeamCount: 25
+      laserAngleStep: 5
+      moveStartX: 0
+      moveEndX: 0
+      shootInterval: 0.05
+      delayAfterPattern: 0
+      beamFireSound: {fileID: 0}
+    repeatCount: 1
+  - startDelay: 0.04
+    patternType: 2
+    patternData:
+      patternName: 
+      beamPrefab: {fileID: 8159057479190825835, guid: df795ef7e984ce94b9a701dee0aa393e, type: 3}
+      beamLength: 1
+      spawnOffset: 6.5
+      beamLifetime: 0.2
+      disableAnimationDuringRotation: 1
+      currentBeamList: []
+      beamBulletPrefab: {fileID: 0}
+      beamBulletCount: 0
+      beamBulletSpeed: 0
+      bulletSpawnDelay: 0
+      bulletOffsets: []
+      bulletSpacing: 0
+      clockwise: 1
+      rotationSpeed: 150
+      syncWithRotationSpeed: 0
+      beamCount: 1
+      startAngle: 170
+      endAngle: -100
+      useLaserAngleStep: 0
+      laserBeamCount: 25
+      laserAngleStep: 5
+      moveStartX: 0
+      moveEndX: 0
+      shootInterval: 0.05
+      delayAfterPattern: 0
+      beamFireSound: {fileID: 0}
+    repeatCount: 1
+  - startDelay: 0.05
+    patternType: 2
+    patternData:
+      patternName: 
+      beamPrefab: {fileID: 8159057479190825835, guid: df795ef7e984ce94b9a701dee0aa393e, type: 3}
+      beamLength: 1
+      spawnOffset: 6.5
+      beamLifetime: 0.2
+      disableAnimationDuringRotation: 1
+      currentBeamList: []
+      beamBulletPrefab: {fileID: 0}
+      beamBulletCount: 0
+      beamBulletSpeed: 0
+      bulletSpawnDelay: 0
+      bulletOffsets: []
+      bulletSpacing: 0
+      clockwise: 1
+      rotationSpeed: 150
+      syncWithRotationSpeed: 0
+      beamCount: 1
+      startAngle: 170
+      endAngle: -100
+      useLaserAngleStep: 0
+      laserBeamCount: 25
+      laserAngleStep: 5
+      moveStartX: 0
+      moveEndX: 0
+      shootInterval: 0.05
+      delayAfterPattern: 0
+      beamFireSound: {fileID: 0}
+    repeatCount: 1
+  - startDelay: 0.06
+    patternType: 2
+    patternData:
+      patternName: 
+      beamPrefab: {fileID: 8159057479190825835, guid: df795ef7e984ce94b9a701dee0aa393e, type: 3}
+      beamLength: 1
+      spawnOffset: 6.5
+      beamLifetime: 0.2
+      disableAnimationDuringRotation: 1
+      currentBeamList: []
+      beamBulletPrefab: {fileID: 0}
+      beamBulletCount: 0
+      beamBulletSpeed: 0
+      bulletSpawnDelay: 0
+      bulletOffsets: []
+      bulletSpacing: 0
+      clockwise: 1
+      rotationSpeed: 150
+      syncWithRotationSpeed: 0
+      beamCount: 1
+      startAngle: 170
+      endAngle: -100
+      useLaserAngleStep: 0
+      laserBeamCount: 25
+      laserAngleStep: 5
+      moveStartX: 0
+      moveEndX: 0
+      shootInterval: 0.05
+      delayAfterPattern: 0
+      beamFireSound: {fileID: 0}
+    repeatCount: 1
+  - startDelay: 0.07
+    patternType: 2
+    patternData:
+      patternName: 
+      beamPrefab: {fileID: 8159057479190825835, guid: df795ef7e984ce94b9a701dee0aa393e, type: 3}
+      beamLength: 1
+      spawnOffset: 6.5
+      beamLifetime: 0.2
+      disableAnimationDuringRotation: 1
+      currentBeamList: []
+      beamBulletPrefab: {fileID: 0}
+      beamBulletCount: 0
+      beamBulletSpeed: 0
+      bulletSpawnDelay: 0
+      bulletOffsets: []
+      bulletSpacing: 0
+      clockwise: 1
+      rotationSpeed: 150
+      syncWithRotationSpeed: 0
+      beamCount: 1
+      startAngle: 170
+      endAngle: -100
+      useLaserAngleStep: 0
+      laserBeamCount: 25
+      laserAngleStep: 5
+      moveStartX: 0
+      moveEndX: 0
+      shootInterval: 0.05
+      delayAfterPattern: 0
+      beamFireSound: {fileID: 0}
+    repeatCount: 1
+  - startDelay: 0.08
+    patternType: 2
+    patternData:
+      patternName: 
+      beamPrefab: {fileID: 8159057479190825835, guid: df795ef7e984ce94b9a701dee0aa393e, type: 3}
+      beamLength: 1
+      spawnOffset: 6.5
+      beamLifetime: 0.2
+      disableAnimationDuringRotation: 1
+      currentBeamList: []
+      beamBulletPrefab: {fileID: 0}
+      beamBulletCount: 0
+      beamBulletSpeed: 0
+      bulletSpawnDelay: 0
+      bulletOffsets: []
+      bulletSpacing: 0
+      clockwise: 1
+      rotationSpeed: 150
+      syncWithRotationSpeed: 0
+      beamCount: 1
+      startAngle: 170
+      endAngle: -100
+      useLaserAngleStep: 0
+      laserBeamCount: 25
+      laserAngleStep: 5
+      moveStartX: 0
+      moveEndX: 0
+      shootInterval: 0.05
+      delayAfterPattern: 0
+      beamFireSound: {fileID: 0}
+    repeatCount: 1
+  - startDelay: 0.02
+    patternType: 0
+    patternData:
+      patternName: 
+      beamPrefab: {fileID: 8159057479190825835, guid: df795ef7e984ce94b9a701dee0aa393e, type: 3}
+      beamLength: 1
+      spawnOffset: 6.5
+      beamLifetime: 0
+      disableAnimationDuringRotation: 1
+      currentBeamList: []
+      beamBulletPrefab: {fileID: 8522127081971420636, guid: 2c4771b15cd9ce24bb069b1809fd3f9c, type: 3}
+      beamBulletCount: 2
+      beamBulletSpeed: 1
+      bulletSpawnDelay: 0.1
+      bulletOffsets:
+      - -5
+      - -4
+      - -3
+      - -2
+      - -1
+      - 0
+      - 1
+      - 2
+      - 3
+      bulletSpacing: 0.3
+      clockwise: 1
+      rotationSpeed: 150
+      syncWithRotationSpeed: 1
+      beamCount: 25
+      startAngle: 170
+      endAngle: -90
+      useLaserAngleStep: 0
+      laserBeamCount: 30
+      laserAngleStep: 10
+      moveStartX: 0
+      moveEndX: 0
+      shootInterval: 0.05
+      delayAfterPattern: 0
+      beamFireSound: {fileID: 8300000, guid: 6d4681811ae5d734fb3910111f3a11af, type: 3}
+    repeatCount: 1
+  loopPatterns: 0
+  bulletsPerSpawn: 2
+  bulletSpacing: 0.4
+  bulletStartSpeed: 1
+  bulletMaxSpeed: 3
+  accelerationTime: 2
+  accelerationCurve: 3
+  beamFireSound: {fileID: 8300000, guid: 6d4681811ae5d734fb3910111f3a11af, type: 3}
+  laserSweepSound: {fileID: 0}
+  rotatingBeamStartSound: {fileID: 0}
+  bulletSpawnSound: {fileID: 0}
+  beamSoundCooldown: 0.05
+  bulletSoundCooldown: 0.05
+--- !u!114 &9058703161435279495
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6422194911852439763}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b67defb689b6526468776a2220e5d05a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetPosition: {x: -3.5, y: 1.8}
+  moveSpeed: 3
+  arrivalThreshold: 0.1
+  animator: {fileID: 0}
+  beamPatterns:
+  - startDelay: 0
+    patternType: 2
+    patternData:
+      patternName: 
+      beamPrefab: {fileID: 8159057479190825835, guid: df795ef7e984ce94b9a701dee0aa393e, type: 3}
+      beamLength: 1
+      spawnOffset: 6.5
+      beamLifetime: 0.2
+      disableAnimationDuringRotation: 1
+      currentBeamList: []
+      beamBulletPrefab: {fileID: 0}
+      beamBulletCount: 0
+      beamBulletSpeed: 0
+      bulletSpawnDelay: 0
+      bulletOffsets: []
+      bulletSpacing: 0
+      clockwise: 0
+      rotationSpeed: 150
+      syncWithRotationSpeed: 0
+      beamCount: 1
+      startAngle: 0
+      endAngle: 270
+      useLaserAngleStep: 0
+      laserBeamCount: 25
+      laserAngleStep: 5
+      moveStartX: 0
+      moveEndX: 0
+      shootInterval: 0.05
+      delayAfterPattern: 0
+      beamFireSound: {fileID: 0}
+    repeatCount: 1
+  - startDelay: 0.03
+    patternType: 2
+    patternData:
+      patternName: 
+      beamPrefab: {fileID: 8159057479190825835, guid: df795ef7e984ce94b9a701dee0aa393e, type: 3}
+      beamLength: 1
+      spawnOffset: 6.5
+      beamLifetime: 0.2
+      disableAnimationDuringRotation: 1
+      currentBeamList: []
+      beamBulletPrefab: {fileID: 0}
+      beamBulletCount: 0
+      beamBulletSpeed: 0
+      bulletSpawnDelay: 0
+      bulletOffsets: []
+      bulletSpacing: 0
+      clockwise: 0
+      rotationSpeed: 150
+      syncWithRotationSpeed: 0
+      beamCount: 1
+      startAngle: 0
+      endAngle: 270
+      useLaserAngleStep: 0
+      laserBeamCount: 25
+      laserAngleStep: 5
+      moveStartX: 0
+      moveEndX: 0
+      shootInterval: 0.05
+      delayAfterPattern: 0
+      beamFireSound: {fileID: 0}
+    repeatCount: 1
+  - startDelay: 0.05
+    patternType: 2
+    patternData:
+      patternName: 
+      beamPrefab: {fileID: 8159057479190825835, guid: df795ef7e984ce94b9a701dee0aa393e, type: 3}
+      beamLength: 1
+      spawnOffset: 6.5
+      beamLifetime: 0.2
+      disableAnimationDuringRotation: 1
+      currentBeamList: []
+      beamBulletPrefab: {fileID: 0}
+      beamBulletCount: 0
+      beamBulletSpeed: 0
+      bulletSpawnDelay: 0
+      bulletOffsets: []
+      bulletSpacing: 0
+      clockwise: 0
+      rotationSpeed: 150
+      syncWithRotationSpeed: 0
+      beamCount: 1
+      startAngle: 0
+      endAngle: 270
+      useLaserAngleStep: 0
+      laserBeamCount: 25
+      laserAngleStep: 5
+      moveStartX: 0
+      moveEndX: 0
+      shootInterval: 0.05
+      delayAfterPattern: 0
+      beamFireSound: {fileID: 0}
+    repeatCount: 1
+  - startDelay: 0.07
+    patternType: 2
+    patternData:
+      patternName: 
+      beamPrefab: {fileID: 8159057479190825835, guid: df795ef7e984ce94b9a701dee0aa393e, type: 3}
+      beamLength: 1
+      spawnOffset: 6.5
+      beamLifetime: 0.2
+      disableAnimationDuringRotation: 1
+      currentBeamList: []
+      beamBulletPrefab: {fileID: 0}
+      beamBulletCount: 0
+      beamBulletSpeed: 0
+      bulletSpawnDelay: 0
+      bulletOffsets: []
+      bulletSpacing: 0
+      clockwise: 0
+      rotationSpeed: 150
+      syncWithRotationSpeed: 0
+      beamCount: 1
+      startAngle: 0
+      endAngle: 270
+      useLaserAngleStep: 0
+      laserBeamCount: 25
+      laserAngleStep: 5
+      moveStartX: 0
+      moveEndX: 0
+      shootInterval: 0.05
+      delayAfterPattern: 0
+      beamFireSound: {fileID: 0}
+    repeatCount: 1
+  - startDelay: 0.09
+    patternType: 2
+    patternData:
+      patternName: 
+      beamPrefab: {fileID: 8159057479190825835, guid: df795ef7e984ce94b9a701dee0aa393e, type: 3}
+      beamLength: 1
+      spawnOffset: 6.5
+      beamLifetime: 0.2
+      disableAnimationDuringRotation: 1
+      currentBeamList: []
+      beamBulletPrefab: {fileID: 0}
+      beamBulletCount: 0
+      beamBulletSpeed: 0
+      bulletSpawnDelay: 0
+      bulletOffsets: []
+      bulletSpacing: 0
+      clockwise: 0
+      rotationSpeed: 150
+      syncWithRotationSpeed: 0
+      beamCount: 1
+      startAngle: 0
+      endAngle: 270
+      useLaserAngleStep: 0
+      laserBeamCount: 25
+      laserAngleStep: 5
+      moveStartX: 0
+      moveEndX: 0
+      shootInterval: 0.05
+      delayAfterPattern: 0
+      beamFireSound: {fileID: 0}
+    repeatCount: 1
+  - startDelay: 0.11
+    patternType: 2
+    patternData:
+      patternName: 
+      beamPrefab: {fileID: 8159057479190825835, guid: df795ef7e984ce94b9a701dee0aa393e, type: 3}
+      beamLength: 1
+      spawnOffset: 6.5
+      beamLifetime: 0.2
+      disableAnimationDuringRotation: 1
+      currentBeamList: []
+      beamBulletPrefab: {fileID: 0}
+      beamBulletCount: 0
+      beamBulletSpeed: 0
+      bulletSpawnDelay: 0
+      bulletOffsets: []
+      bulletSpacing: 0
+      clockwise: 0
+      rotationSpeed: 150
+      syncWithRotationSpeed: 0
+      beamCount: 1
+      startAngle: 0
+      endAngle: 270
+      useLaserAngleStep: 0
+      laserBeamCount: 25
+      laserAngleStep: 5
+      moveStartX: 0
+      moveEndX: 0
+      shootInterval: 0.05
+      delayAfterPattern: 0
+      beamFireSound: {fileID: 0}
+    repeatCount: 1
+  - startDelay: 0.13
+    patternType: 2
+    patternData:
+      patternName: 
+      beamPrefab: {fileID: 8159057479190825835, guid: df795ef7e984ce94b9a701dee0aa393e, type: 3}
+      beamLength: 1
+      spawnOffset: 6.5
+      beamLifetime: 0.2
+      disableAnimationDuringRotation: 1
+      currentBeamList: []
+      beamBulletPrefab: {fileID: 0}
+      beamBulletCount: 0
+      beamBulletSpeed: 0
+      bulletSpawnDelay: 0
+      bulletOffsets: []
+      bulletSpacing: 0
+      clockwise: 0
+      rotationSpeed: 150
+      syncWithRotationSpeed: 0
+      beamCount: 1
+      startAngle: 0
+      endAngle: 270
+      useLaserAngleStep: 0
+      laserBeamCount: 25
+      laserAngleStep: 5
+      moveStartX: 0
+      moveEndX: 0
+      shootInterval: 0.05
+      delayAfterPattern: 0
+      beamFireSound: {fileID: 0}
+    repeatCount: 1
+  - startDelay: 0.02
+    patternType: 0
+    patternData:
+      patternName: 
+      beamPrefab: {fileID: 8159057479190825835, guid: df795ef7e984ce94b9a701dee0aa393e, type: 3}
+      beamLength: 1
+      spawnOffset: 6.5
+      beamLifetime: 0
+      disableAnimationDuringRotation: 1
+      currentBeamList: []
+      beamBulletPrefab: {fileID: 8522127081971420636, guid: 2c4771b15cd9ce24bb069b1809fd3f9c, type: 3}
+      beamBulletCount: 2
+      beamBulletSpeed: 1
+      bulletSpawnDelay: 0.1
+      bulletOffsets:
+      - -5
+      - -4
+      - -3
+      - -2
+      - -1
+      - 0
+      - 1
+      - 2
+      - 3
+      bulletSpacing: 0.3
+      clockwise: 0
+      rotationSpeed: 150
+      syncWithRotationSpeed: 1
+      beamCount: 25
+      startAngle: 0
+      endAngle: 260
+      useLaserAngleStep: 0
+      laserBeamCount: 30
+      laserAngleStep: 10
+      moveStartX: 0
+      moveEndX: 0
+      shootInterval: 0.05
+      delayAfterPattern: 0
+      beamFireSound: {fileID: 8300000, guid: 6d4681811ae5d734fb3910111f3a11af, type: 3}
+    repeatCount: 1
+  loopPatterns: 0
+  bulletsPerSpawn: 2
+  bulletSpacing: 0.4
+  bulletStartSpeed: 1
+  bulletMaxSpeed: 3
+  accelerationTime: 2
+  accelerationCurve: 3
+  beamFireSound: {fileID: 8300000, guid: 6d4681811ae5d734fb3910111f3a11af, type: 3}
+  laserSweepSound: {fileID: 0}
+  rotatingBeamStartSound: {fileID: 0}
+  bulletSpawnSound: {fileID: 0}
+  beamSoundCooldown: 0.05
+  bulletSoundCooldown: 0.05
+--- !u!114 &4269775398994777025
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6422194911852439763}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2334168687478d045aa7910ae484007b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  visualBeamOffset: {x: 0, y: -5}
+  startPos: {x: -7, y: 4}
+  endPos: {x: -1, y: 3}
+  moveToStartSpeed: 10
+  moveDelay: 1
+  startDelay: 0
+  visualBeamPrefab: {fileID: 8159057479190825835, guid: df795ef7e984ce94b9a701dee0aa393e, type: 3}
+  showVisualBeam: 1
+  visualBeamAngle: -90
+  visualBeamRotationOffset: -90
+  beamLingerTime: 0.5
+  useBeamTrail: 1
+  beamTrailInterval: 0.1
+  trailBeamAlpha: 0.6
+  trailBeamFadeTime: 0.5
+  energyBallPrefab: {fileID: 8711687177780787706, guid: 60d14998c9a97a94d8f02a42c0f707da, type: 3}
+  useEnergyBall: 1
+  energyBallOffset: {x: 0, y: 0}
+  bulletPrefab: {fileID: 8522127081971420636, guid: 2c4771b15cd9ce24bb069b1809fd3f9c, type: 3}
+  spawnBullets: 1
+  bulletSpawnDelay: 0.2
+  useMovementDirection: 1
+  angleOffset: 0
+  bulletGroupInterval: 0.1
+  useTimeBasedSpawning: 1
+  virtualBeamLength: 5
+  numShots: 1
+  shotInterval: 0
+  bulletOffsets:
+  - -5.5
+  - -4.5
+  - -3.5
+  - -2.5
+  - -1.5
+  - -0.5
+  - 0.5
+  - 1.5
+  - 2.5
+  - 3.5
+  bulletsPerSpawn: 1
+  bulletSpacing: 0.4
+  clockwise: 1
+  bulletSpeed: 3
+  useBulletSpeedCurve: 1
+  bulletSpeedCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0.5
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1.5
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  useBulletAcceleration: 1
+  bulletStartSpeed: 0.5
+  bulletFinalSpeed: 3
+  bulletAccelDuration: 3
+  bulletAccelerationCurve: 1
+  moveType: 0
+  smoothDuration: 1
+  smoothCurveType: 3
+  smoothCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  impulseDuration: 1
+  impulseWaitDuration: 1.5
+  impulseCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  beamFireSound: {fileID: 8300000, guid: 6d4681811ae5d734fb3910111f3a11af, type: 3}
+  beamLoopSound: {fileID: 0}
+  beamEndSound: {fileID: 0}
+  bulletSpawnSound: {fileID: 8300000, guid: e15f251fef3bda24fba62253327f4805, type: 3}
+  disableAnimationDuringMove: 1
+  moveUpAfterBeam: 1
+  moveUpDistance: 2
+  moveUpSpeed: 5
+--- !u!114 &3306134148894349486
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6422194911852439763}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e98bd6fefe4174749b3f7b0652b66c88, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  visualBeamOffset: {x: 0, y: -5}
+  startPos: {x: 2, y: 4}
+  endPos: {x: -4, y: 3}
+  moveToStartSpeed: 10
+  moveDelay: 1
+  startDelay: 0
+  visualBeamPrefab: {fileID: 8159057479190825835, guid: df795ef7e984ce94b9a701dee0aa393e, type: 3}
+  showVisualBeam: 1
+  visualBeamAngle: -90
+  visualBeamRotationOffset: -90
+  beamLingerTime: 0.5
+  useBeamTrail: 1
+  beamTrailInterval: 0.1
+  trailBeamAlpha: 0.6
+  trailBeamFadeTime: 0.5
+  energyBallPrefab: {fileID: 8711687177780787706, guid: 60d14998c9a97a94d8f02a42c0f707da, type: 3}
+  useEnergyBall: 1
+  energyBallOffset: {x: 0, y: 0}
+  bulletPrefab: {fileID: 8522127081971420636, guid: 2c4771b15cd9ce24bb069b1809fd3f9c, type: 3}
+  spawnBullets: 1
+  bulletSpawnDelay: 0.2
+  useMovementDirection: 1
+  angleOffset: 0
+  bulletGroupInterval: 0.1
+  useTimeBasedSpawning: 1
+  virtualBeamLength: 5
+  numShots: 1
+  shotInterval: 0
+  bulletOffsets:
+  - -5.5
+  - -4.5
+  - -3.5
+  - -2.5
+  - -1.5
+  - -0.5
+  - 0.5
+  - 1.5
+  - 2.5
+  - 3.5
+  bulletsPerSpawn: 1
+  bulletSpacing: 0.4
+  clockwise: 0
+  bulletSpeed: -3
+  useBulletSpeedCurve: 1
+  bulletSpeedCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0.5
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1.5
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  useBulletAcceleration: 1
+  bulletStartSpeed: -0.5
+  bulletFinalSpeed: -3
+  bulletAccelDuration: 3
+  bulletAccelerationCurve: 1
+  moveType: 0
+  smoothDuration: 1
+  smoothCurveType: 3
+  smoothCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  impulseDuration: 1
+  impulseWaitDuration: 1.5
+  impulseCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  beamFireSound: {fileID: 8300000, guid: 6d4681811ae5d734fb3910111f3a11af, type: 3}
+  beamLoopSound: {fileID: 0}
+  beamEndSound: {fileID: 0}
+  bulletSpawnSound: {fileID: 8300000, guid: e15f251fef3bda24fba62253327f4805, type: 3}
+  disableAnimationDuringMove: 1
+  moveUpAfterBeam: 1
+  moveUpDistance: 2
+  moveUpSpeed: 5
+--- !u!114 &6125546105514625472
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6422194911852439763}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c34ec21e2706d944096c40c7952ea1a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveShootSequence:
+  - targetPosition: {x: 0, y: 0}
+    moveSpeed: 0
+    arrivalThreshold: 0
+    shotsAtThisPosition: 0
+    shotInterval: 0
+    patternData:
+      fireSound: {fileID: 0}
+      patternName: 
+      bulletPrefab: {fileID: 0}
+      setsToShoot: 0
+      bulletsPerSet: 0
+      rotationStep: 0
+      spawnOffset: 0
+      shootInterval: 0
+      freezeTime: 0
+      initialSpeed: 0
+      burstSpeed: 0
+      finalSpeed: 0
+      speedIncreasePerSet: 0
+      accelerationTime: 0
+      burstDuration: 0
+      decelerationTime: 0
+      delayAfterPattern: 0
+  loopSequence: 0
+  useRandomMovement: 1
+  moveAreaMin: {x: -6, y: 2}
+  moveAreaMax: {x: 1, y: 4}
+  randomShotsPerPosition: 3
+  randomShotInterval: 0.5
+  randomPatternData:
+    fireSound: {fileID: 8300000, guid: 2bf7b01be01db5a46aecc52b7828e194, type: 3}
+    patternName: Pattern
+    bulletPrefab: {fileID: 8522127081971420636, guid: 8858249de61d78641abdaedbc3d3c082, type: 3}
+    setsToShoot: 20
+    bulletsPerSet: 6
+    rotationStep: 6
+    spawnOffset: 0.1
+    shootInterval: 0
+    freezeTime: 0
+    initialSpeed: 1
+    burstSpeed: 3
+    finalSpeed: 2
+    speedIncreasePerSet: 0.2
+    accelerationTime: 0
+    burstDuration: 0.05
+    decelerationTime: 0.5
+    delayAfterPattern: 1
+  animator: {fileID: 121378988985613715}
+  isMovingParameter: isMoving
+  spriteRenderer: {fileID: 0}
+  bulletPrefab: {fileID: 8522127081971420636, guid: 8858249de61d78641abdaedbc3d3c082, type: 3}
+  bulletsPerShot: 12
+  bulletSpeed: 1
+  spawnOffset: 1.5
+  freezeTime: 0
+--- !u!114 &6503281036797251563
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6422194911852439763}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 771ce0695098484408bd63cf26b1fed3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHP: 700
+  gameClearSceneName: GameClear
+  deathSound: {fileID: 8300000, guid: 22dc9c6ae58ef2544a1ec7772c6addb5, type: 3}
+  deathDelay: 2
+--- !u!114 &8065237559807269600
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6422194911852439763}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 535001069f844084bb57448455262d61, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boss: {fileID: 6503281036797251563}
+  defaultPatterns:
+  - {fileID: 8841597155752930510}
+  phases:
+  - triggerHPPercent: 0.5
+    phasePatterns:
+    - pattern: {fileID: 4779333510623518543}
+      startDelay: 0
+    duration: 10
+    returnToDefault: 1
+    hasExecuted: 0
+  - triggerHPPercent: 0.25
+    phasePatterns:
+    - pattern: {fileID: 8430200544206869161}
+      startDelay: 0
+    - pattern: {fileID: 3306134148894349486}
+      startDelay: 4
+    - pattern: {fileID: 4269775398994777025}
+      startDelay: 4
+    - pattern: {fileID: 9058703161435279495}
+      startDelay: 4
+    duration: 10
+    returnToDefault: 1
+    hasExecuted: 0
+  - triggerHPPercent: 0.75
+    phasePatterns:
+    - pattern: {fileID: 6972368154083397522}
+      startDelay: 0
+    duration: 10
+    returnToDefault: 1
+    hasExecuted: 0
+  phaseChangeHPPercent: 0.47
+  finalPhaseDefaultPatterns:
+  - {fileID: 6125546105514625472}
+  autoCheckEveryFrame: 1
+  checkInterval: 0.05
+--- !u!114 &8841597155752930510
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6422194911852439763}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67224adbb95df004e9e50a9e1b1924fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bulletPrefab: {fileID: 1762511249922738118, guid: 98e22ad6bd61c3e4eb563342d2f0dff0, type: 3}
+  spawnOffset: 1.5
+  bulletCount: 50
+  shootInterval: 0.5
+  secondShotRotation: 10
+  fireSound: {fileID: 8300000, guid: 81fe795565d30fe45b9c5eadcfec7b20, type: 3}
+  initialSpeed: 1
+  burstSpeed: 6
+  finalSpeed: 3
+  accelerationTime: 0
+  burstDuration: 0.1
+  decelerationTime: 0.1
+  useRandomMovement: 1
+  moveAreaMin: {x: -6, y: 2}
+  moveAreaMax: {x: 1, y: 4}
+  moveSpeed: 4
+  arrivalThreshold: 0.1
+  shotsPerPosition: 1
+  positionChangeInterval: 2
+  animator: {fileID: 0}
+  spriteRenderer: {fileID: 0}
+--- !u!114 &4517641941986086640
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6422194911852439763}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c7c9cb62bbf0f4ea1790374f0b614f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bossBattleBGM: {fileID: 8300000, guid: 0d452ff24596d3b4c95c3820211aa768, type: 3}
+  bgmFadeTime: 1
+  spawnPosition: {x: -2.5, y: 5.5}
+  dialoguePosition: {x: -2.5, y: 3.5}
+  moveSpeed: 1
+  moveCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spawnEffect: {fileID: 0}
+  spawnSound: {fileID: 0}
+  useFadeIn: 1
+  fadeInDuration: 0.5
+  dialogueUI: {fileID: 6422194911852439763}
+  dialogueManager: {fileID: 0}
+  dialogueData: {fileID: 11400000, guid: ad461deecfd020b4e94f6f619b784153, type: 2}
+  dialogueDelay: 0.5
+  battleStartDelay: 0.3
+  battleStartSound: {fileID: 0}
+  battleStartEffect: {fileID: 0}
+  OnIntroStart:
+    m_PersistentCalls:
+      m_Calls: []
+  OnMoveComplete:
+    m_PersistentCalls:
+      m_Calls: []
+  OnDialogueStart:
+    m_PersistentCalls:
+      m_Calls: []
+  OnDialogueEnd:
+    m_PersistentCalls:
+      m_Calls: []
+  OnBattleStart:
+    m_PersistentCalls:
+      m_Calls: []
+  skipIntro: 0
+  skipDialogue: 0
+--- !u!114 &6972368154083397522
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6422194911852439763}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46305f39e6e15054e93dbd6377e8595a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  patternOrder:
+  - template:
+      fireSound: {fileID: 8300000, guid: 55c7a9fff573a9c41bd7b1f78e42dee3, type: 3}
+      patternName: "6\uC790\uD328\uD134"
+      bulletPrefab: {fileID: 3491833684876513485, guid: 864ac1fa579b258488de02671e17401e, type: 3}
+      setsToShoot: 8
+      bulletsPerSet: 13
+      rotationStep: -7
+      spawnOffset: 0.2
+      shootInterval: 0.06
+      freezeTime: 0
+      initialSpeed: 0
+      burstSpeed: 5
+      finalSpeed: 1.5
+      speedIncreasePerSet: 0.3
+      accelerationTime: 0
+      burstDuration: 0.1
+      decelerationTime: 0
+      delayAfterPattern: 0
+  - template:
+      fireSound: {fileID: 8300000, guid: 55c7a9fff573a9c41bd7b1f78e42dee3, type: 3}
+      patternName: "6\uC790\uD328\uD134"
+      bulletPrefab: {fileID: 1762511249922738118, guid: 98e22ad6bd61c3e4eb563342d2f0dff0, type: 3}
+      setsToShoot: 7
+      bulletsPerSet: 13
+      rotationStep: 7
+      spawnOffset: 0.2
+      shootInterval: 0.06
+      freezeTime: 0
+      initialSpeed: 0
+      burstSpeed: 5
+      finalSpeed: 1.5
+      speedIncreasePerSet: 0.3
+      accelerationTime: 0
+      burstDuration: 0.1
+      decelerationTime: 0
+      delayAfterPattern: 1
+  - template:
+      fireSound: {fileID: 8300000, guid: 55c7a9fff573a9c41bd7b1f78e42dee3, type: 3}
+      patternName: "6\uC790\uD328\uD134"
+      bulletPrefab: {fileID: 3491833684876513485, guid: 864ac1fa579b258488de02671e17401e, type: 3}
+      setsToShoot: 8
+      bulletsPerSet: 13
+      rotationStep: -7
+      spawnOffset: 0.2
+      shootInterval: 0.06
+      freezeTime: 0
+      initialSpeed: 0
+      burstSpeed: 5
+      finalSpeed: 1.5
+      speedIncreasePerSet: 0.3
+      accelerationTime: 0
+      burstDuration: 0.1
+      decelerationTime: 0
+      delayAfterPattern: 0
+  - template:
+      fireSound: {fileID: 8300000, guid: 55c7a9fff573a9c41bd7b1f78e42dee3, type: 3}
+      patternName: "6\uC790\uD328\uD134"
+      bulletPrefab: {fileID: 1762511249922738118, guid: 98e22ad6bd61c3e4eb563342d2f0dff0, type: 3}
+      setsToShoot: 7
+      bulletsPerSet: 13
+      rotationStep: 7
+      spawnOffset: 0.2
+      shootInterval: 0.06
+      freezeTime: 0
+      initialSpeed: 0
+      burstSpeed: 5
+      finalSpeed: 1.5
+      speedIncreasePerSet: 0.3
+      accelerationTime: 0
+      burstDuration: 0.1
+      decelerationTime: 0
+      delayAfterPattern: 1
+  - template:
+      fireSound: {fileID: 8300000, guid: 55c7a9fff573a9c41bd7b1f78e42dee3, type: 3}
+      patternName: "6\uC790\uD328\uD134"
+      bulletPrefab: {fileID: 3491833684876513485, guid: 864ac1fa579b258488de02671e17401e, type: 3}
+      setsToShoot: 8
+      bulletsPerSet: 13
+      rotationStep: -7
+      spawnOffset: 0.2
+      shootInterval: 0.06
+      freezeTime: 0
+      initialSpeed: 0
+      burstSpeed: 5
+      finalSpeed: 1.5
+      speedIncreasePerSet: 0.3
+      accelerationTime: 0
+      burstDuration: 0.1
+      decelerationTime: 0
+      delayAfterPattern: 0
+  - template:
+      fireSound: {fileID: 8300000, guid: 55c7a9fff573a9c41bd7b1f78e42dee3, type: 3}
+      patternName: "6\uC790\uD328\uD134"
+      bulletPrefab: {fileID: 1762511249922738118, guid: 98e22ad6bd61c3e4eb563342d2f0dff0, type: 3}
+      setsToShoot: 7
+      bulletsPerSet: 13
+      rotationStep: 7
+      spawnOffset: 0.2
+      shootInterval: 0.06
+      freezeTime: 0
+      initialSpeed: 0
+      burstSpeed: 5
+      finalSpeed: 1.5
+      speedIncreasePerSet: 0.3
+      accelerationTime: 0
+      burstDuration: 0.1
+      decelerationTime: 0
+      delayAfterPattern: 0
+  - template:
+      fireSound: {fileID: 8300000, guid: 55c7a9fff573a9c41bd7b1f78e42dee3, type: 3}
+      patternName: "6\uC790\uD328\uD134"
+      bulletPrefab: {fileID: 3491833684876513485, guid: 864ac1fa579b258488de02671e17401e, type: 3}
+      setsToShoot: 8
+      bulletsPerSet: 13
+      rotationStep: -7
+      spawnOffset: 0.2
+      shootInterval: 0.06
+      freezeTime: 0
+      initialSpeed: 0
+      burstSpeed: 5
+      finalSpeed: 1.5
+      speedIncreasePerSet: 0.3
+      accelerationTime: 0
+      burstDuration: 0.1
+      decelerationTime: 0
+      delayAfterPattern: 0
+  - template:
+      fireSound: {fileID: 8300000, guid: 55c7a9fff573a9c41bd7b1f78e42dee3, type: 3}
+      patternName: "6\uC790\uD328\uD134"
+      bulletPrefab: {fileID: 1762511249922738118, guid: 98e22ad6bd61c3e4eb563342d2f0dff0, type: 3}
+      setsToShoot: 7
+      bulletsPerSet: 13
+      rotationStep: 7
+      spawnOffset: 0.2
+      shootInterval: 0.06
+      freezeTime: 0
+      initialSpeed: 0
+      burstSpeed: 5
+      finalSpeed: 1.5
+      speedIncreasePerSet: 0.3
+      accelerationTime: 0
+      burstDuration: 0.1
+      decelerationTime: 0
+      delayAfterPattern: 0
+  loopPatterns: 0
+  patternTemplates: []
+  repeatCount: 8
+  movePosition: {x: -2.5, y: 2}
+  moveSpeed: 5
+  delayBeforePattern: 1.5
+  animator: {fileID: 0}

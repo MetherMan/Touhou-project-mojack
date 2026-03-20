@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef172e19b12c78f42891552376fe4d8e, type: 3}
+  m_Name: Boss_FirstDialogue
+  m_EditorClassIdentifier: 
+  dialogueLines:
+  - characterName: "\uC8FC\uC778\uACF5"
+    characterPortrait: {fileID: 21300000, guid: 636079fc376c19940bc06776a0762e9d, type: 3}
+    portraitPosition: 0
+    dialogue: "\uB108 \uC65C \uACFC\uC81C \uCC38\uC5EC \uC548\uD588\uC5B4?"
+    textSpeed: 10
+    autoAdvanceDelay: 0
+    voiceClip: {fileID: 0}
+  - characterName: "\uC218\uC778"
+    characterPortrait: {fileID: 21300000, guid: 87059e89ba03f3b4d9e02733949c08d4, type: 3}
+    portraitPosition: 1
+    dialogue: "\uC74C? \uADF8\uB0E5"
+    textSpeed: 10
+    autoAdvanceDelay: 0
+    voiceClip: {fileID: 0}
+  - characterName: "\uC8FC\uC778\uACF5"
+    characterPortrait: {fileID: 21300000, guid: 6ce4d28cc65b41744bdf36e31392cd6c, type: 3}
+    portraitPosition: 0
+    dialogue: "...??? \uADF8\uB7FC\uC8FD\uC5B4!!!"
+    textSpeed: 10
+    autoAdvanceDelay: 0
+    voiceClip: {fileID: 0}
+  dialogueFont: {fileID: 11400000, guid: 3c934aa9f8f529c4aa8663dcbfbbb972, type: 2}
+  nameFont: {fileID: 11400000, guid: 3c934aa9f8f529c4aa8663dcbfbbb972, type: 2}
